@@ -1,0 +1,51 @@
+.blue {
+  color: #007bff;
+}
+
+.red {
+  color: #ff0000;
+}
+
+html,
+body {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content should take up remaining height before footer */
+.content {
+  flex: 1;
+}
+
+.hr {
+  border-bottom: 2px solid red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: larger; /* Change the color on hover */
+  transition: ease-in-out 0.5s;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
