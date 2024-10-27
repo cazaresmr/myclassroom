@@ -42,6 +42,19 @@ a:hover {
   transition: ease-in-out 0.5s;
 }
 
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+.center {
+  text-align: center;
+}
+
 footer {
   padding: 1em;
   text-align: center;
